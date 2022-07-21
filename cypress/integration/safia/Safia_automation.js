@@ -24,7 +24,6 @@ var randomFixedInteger = function (length) {
   return Math.floor(Math.pow(10, length-1) + Math.random() * (Math.pow(10, length) - Math.pow(10, length-1) - 1));
 }
 
-const new1 = 'new something'
 const point = 'Старомосковская'
 const address = 'Rayon'
 const new_address = 'Rayon Archakuchinskiy'
@@ -38,8 +37,6 @@ const passport = 'passport.jpg'
 const avatar = 'Screenshot_4-6.jpg'
 const phonenum = randomFixedInteger(9)
 const inn = randomFixedInteger(12)
-const test = 'this text created to test git'
-const testtest = 'test'
 
 describe('Admin panel test', function(){
   
