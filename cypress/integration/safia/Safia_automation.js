@@ -38,7 +38,7 @@ const passport = 'passport.jpg'
 const avatar = 'Screenshot_4-6.jpg'
 const phonenum = randomFixedInteger(9)
 const inn = randomFixedInteger(12)
-
+const test = 'this text created to test git'
 
 describe('Admin panel test', function(){
   
